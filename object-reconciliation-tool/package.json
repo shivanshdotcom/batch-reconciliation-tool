@@ -1,0 +1,33 @@
+{
+  "name": "object-reconciliation-tool",
+  "version": "1.0.0",
+  "description": "Liferay DXP Custom Element for Object Reconciliation Tool with Batch Filtering",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "keywords": [
+    "liferay",
+    "client-extension",
+    "custom-element",
+    "react",
+    "reconciliation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.22.0",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

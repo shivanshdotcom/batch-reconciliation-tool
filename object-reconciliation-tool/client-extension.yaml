@@ -1,0 +1,16 @@
+assemble:
+    - from: build/static
+      into: static
+
+object-reconciliation-tool:
+    cssURLs:
+        - css/main.css
+    friendlyURLMapping: object-reconciliation-tool
+    htmlElementName: object-reconciliation-tool-element
+    instanceable: false
+    name: Object Reconciliation Tool
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - js/main.js
+    useESM: false
